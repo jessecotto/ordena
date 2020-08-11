@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+vimport { h, Component } from 'preact';
 import { Link } from 'preact-router/match';
 import style from './style';
 
@@ -16,7 +16,7 @@ export default class Header extends Component {
     //   </Link>;
     return (
       <header class={style.header}>
-        <h1>Twilio Barista</h1>
+        <h1>Servicio al Carro</h1>
         <nav>
           <Link activeClassName={style.active} href="/">
             Home
